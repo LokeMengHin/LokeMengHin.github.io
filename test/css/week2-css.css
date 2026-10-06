@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 146);
+    color: red;
+}
+
+h1,
+h2 {
+    color: rgb(166, 251, 255);
+    background-color: rgb(150, 170, 255);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    font-weight: normal;
+}
+
+p {
+    font-weight: bold;
+    color: purple;
+    background-color: lightgreen;
+    padding: 10px;
+}
