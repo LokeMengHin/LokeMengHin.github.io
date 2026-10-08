@@ -7,7 +7,6 @@ body {
 }
 
 h1 {
-    color: #425B9A;
     font-weight: bold;
     font-size: 35px;
 }
@@ -18,4 +17,6 @@ h2 {
     border: 2px dashed #FF95A5;
     padding: 10px;
     font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
