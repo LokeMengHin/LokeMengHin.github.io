@@ -41,7 +41,8 @@ button {
 
 .apply {
     background-color: #2d65bc;
-    padding: 10px 20px border-radius: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .save {
