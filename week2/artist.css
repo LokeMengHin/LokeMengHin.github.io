@@ -11,12 +11,17 @@ h1 {
 
 }
 
+h2 {
+    font-size: 28px;
+}
+
 .subt {
     color: #9929EA;
 }
 
 .colorbd1 {
     border: 5px solid #FF5FCF;
+    border-radius: 8px;
 }
 
 .bodybor {
