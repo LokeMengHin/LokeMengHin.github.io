@@ -1,7 +1,35 @@
 body {
-    color: aquamarine
+    color: #FAEB92;
+    background-color: #000000;
+    font-weight: normal;
+    margin: 20px;
 }
 
-.img {
-    display: inline-block;
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.subt {
+    color: #9929EA;
+}
+
+.colorbd1 {
+    border: 5px solid #FF5FCF;
+}
+
+.bodybor {
+    border: 2px solid #9929EA;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FAEB92;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    font-weight: bold;
 }
