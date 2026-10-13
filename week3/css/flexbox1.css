@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    background-color: #f6f5ef;
+    font-family: "Oxygen", sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
