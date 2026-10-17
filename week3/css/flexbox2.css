@@ -3,19 +3,29 @@
 body {
     font-family: "Space Grotesk", sans-serif;
     margin: 50px 60px;
+    font-size: 18px;
 }
 
-div {
-    background-repeat: no-repeat;
+h1 {
+    font-size: 50px;
+}
+
+.leftalign {
+    max-width: 480px;
+}
+
+.rightalign {
+    max-width: 480px;
+
 }
 
 .alignstraight {
-    text-align: justify;
-
+    gap: 10px;
 }
 
 button {
     border-radius: 10px;
+    font-size: 15px;
 }
 
 .reqbutton {
@@ -28,8 +38,27 @@ button {
     background-color: #000000;
     color: white;
     padding: 10px 27px;
+    margin-top: 10px;
 }
 
 .logoflex {
+    gap: 10px;
+}
+
+.topdetails {
+    gap: 30px;
+}
+
+.maincontent {
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.aligncenter {
     display: flex;
+    align-items: center;
+}
+
+.bottomlogos {
+    margin-top: 70px;
 }
