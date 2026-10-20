@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 40px 100px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.textdis {
+    margin-top: -10px;
+}
+
+.leftalign {
+    max-width: 500px;
+    margin-top: -30px;
+}
+
+.rightalign {
+    max-width: 550px;
+    margin-top: 50px;
+}
+
+.justifycen {
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.reqbutton {
+    border: 1px solid #000000;
+    padding: 15px 30px;
+    background-color: white;
+}
+
+.burgermenu {
+    display: none;
+}
+
+.bookbutton {
+    background-color: #000000;
+    color: white;
+    padding: 10px 27px;
+    margin-top: 10px;
+}
+
+.topdetailsgap {
+    gap: 40px;
+}
+
+.flexcenter {
+    display: flex;
+    align-items: center;
+}
+
+.bottomlogos {
+    margin-top: 40px;
+    filter: grayscale(1);
+    justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 1170px) {
+    .topdetailsgap {
+        display: none;
+    }
+
+    .burgermenu {
+        display: block;
+    }
+
+    .middlestuff {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+
+    .topjustify {
+        justify-content: space-between;
+    }
+
+    .bookbutton {
+        min-width: 110%;
+    }
+
+    .bottomlogos {
+        flex-direction: column;
+        gap: 20px;
+        display: inline-block;
+
+    }
+}

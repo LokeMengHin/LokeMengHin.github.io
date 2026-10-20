@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(156, 156, 255);
+}
+
+button {
+    display: block;
+}
+
+div {
+    display: inline;
+}
+
+.disapear {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(255, 141, 141);
+        color: white;
+        font-size: 30px;
+    }
+}
+
+
+
+h1 {
+    color: #ffffff;
+}
