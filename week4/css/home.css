@@ -77,9 +77,8 @@ button {
     }
 
     .middlestuff {
-        flex-direction: column-reverse;
-        margin-top: 30px;
-        margin-left: -60px;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .topjustify {
@@ -87,13 +86,34 @@ button {
     }
 
     .bookbutton {
-        min-width: 110%;
+        width: 100%;
+        min-width: 0;
     }
 
     .bottomlogos {
         flex-direction: column;
         gap: 20px;
         display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
+    .rightalign {
+        max-width: 550px;
+        margin-top: 50px;
+    }
+
+    .rightalign img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .leftalign {
+        display: contents;
+    }
+
+    body {
+        margin: 20px 5vw;
     }
 }
