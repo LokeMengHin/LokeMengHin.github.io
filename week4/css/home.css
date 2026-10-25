@@ -16,13 +16,22 @@ h1 {
 
 .leftalign {
     max-width: 500px;
-    margin-top: -30px;
+    margin-top: -50px;
+}
+
+.middlestuff {
+    margin-top: 50px;
 }
 
 .rightalign {
     max-width: 550px;
-    margin-top: 50px;
 }
+
+.rightalign img {
+    width: 100%;
+    height: auto;
+}
+
 
 .justifycen {
     justify-content: space-between;
