@@ -48,6 +48,11 @@ button {
     background-color: white;
 }
 
+.bookbutton,
+.bottombanner button {
+    border: none;
+}
+
 .burgermenu {
     display: none;
 }
@@ -69,7 +74,7 @@ button {
 }
 
 .bottomlogos {
-    margin-top: 40px;
+    margin-top: 50px;
     filter: grayscale(1);
     justify-content: space-between;
 
@@ -87,6 +92,42 @@ button {
     box-shadow: inset 0px -5px #191A23;
     color: white;
     font-weight: 100;
+    display: flex;
+}
+
+.cardtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cardtitle p {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.carddirect {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.carddirect p {
+    margin: 0;
+}
+
+.cardillus img {
+    max-width: 100%;
+    width: 240px;
+    height: auto;
+}
+
+.cardillus {
+    flex: 1.3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .carddis {
@@ -110,7 +151,7 @@ button {
     align-items: center;
     flex-direction: row;
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 70px;
 }
 
@@ -120,6 +161,50 @@ button {
     max-width: 580px;
 }
 
+.bottombanner {
+    background-color: #f3f3f3;
+    padding: 35px;
+    border-radius: 45px;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.bottombanner h1 {
+    font-size: 35px;
+}
+
+.bottombanner p {
+    font-size: 20px;
+}
+
+.bottombanner button {
+    background-color: #000000;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 40px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.bottomimg {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    margin-top: -350px;
+    margin-bottom: -80px;
+    margin-left: 870px;
+    width: 230px;
+    height: auto;
+}
+
+
+.bannerstuff {
+    max-width: 590px;
+}
 
 @media screen and (max-width: 1170px) {
     .topdetailsgap {
@@ -141,33 +226,103 @@ button {
 
     .bookbutton {
         width: 100%;
-        min-width: 0;
+        padding: 20px;
+        order: 4;
+        margin-top: 20px;
     }
 
     .bottomlogos {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
-        display: inline-block;
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+
+    .bottomlogos img {
+        width: 31%;
+        height: auto;
     }
 
     .rightalign {
         max-width: 550px;
         margin-top: 50px;
+        order: 2;
     }
 
     .rightalign img {
         display: block;
         width: 100%;
         height: auto;
+        margin-top: -50px;
     }
 
     .leftalign {
         display: contents;
     }
 
+    .leftalign p {
+        order: 3;
+        font-size: 18px;
+    }
+
+    .leftalign h1 {
+        font-size: 45px;
+    }
+
     body {
         margin: 20px 5vw;
+    }
+
+    .servicealign img {
+        align-self: center;
+        width: auto;
+        height: 45px;
+        margin-top: -85px;
+    }
+
+    .smallword {
+        text-align: center;
+    }
+
+    .mobilemargintop {
+        margin-top: 0px;
+    }
+
+    .cardmarginad {
+        margin-top: 0px;
+    }
+
+    .carddirect p {
+        display: none;
+    }
+
+    .cardillus img {
+        width: 280px;
+        max-width: 170%;
+        height: auto;
+        margin-top: 130px;
+    }
+
+    .bottomimg {
+        display: none;
+    }
+
+    .bottombanner {
+        margin-top: 50px;
+    }
+
+    .bannerstuff {
+        padding: 20px;
+    }
+
+    .bannerstuff p {
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .bannerstuff button {
+        width: 100%;
+        padding: 20px;
     }
 }
