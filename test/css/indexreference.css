@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background: #06172d;
+    color: #222;
+    font-family: "Courier New", monospace;
+}
+
+.page {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse at 12% 35%, rgba(255, 255, 255, .95), transparent 32%),
+        radial-gradient(ellipse at 88% 80%, rgba(255, 179, 128, .75), transparent 35%),
+        linear-gradient(125deg, #f6eee7, #d6e8eb 48%, #f4d9ca);
+}
+
+.topbar,
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4caf50;
+    color: white;
+}
+
+.topbar {
+    min-height: 58px;
+    padding: 0 16px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.linkedin {
+    font-size: 12px;
+}
+
+.intro {
+    padding: 32px 24px 20px;
+    text-align: center;
+}
+
+.avatar {
+    position: relative;
+    width: 108px;
+    height: 108px;
+    margin: 0 auto 14px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #aaa;
+}
+
+.avatar-head {
+    width: 38px;
+    height: 38px;
+    margin: 20px auto 0;
+    border-radius: 50%;
+    background: #292d33;
+}
+
+.avatar-body {
+    position: absolute;
+    bottom: -15px;
+    left: 22px;
+    width: 64px;
+    height: 46px;
+    border-radius: 50% 50% 0 0;
+    background: #292d33;
+}
+
+.intro h1 {
+    margin: 0 0 8px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 16px;
+}
+
+.description {
+    max-width: 720px;
+    margin: 38px auto 22px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.weeks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 28px 28px;
+}
+
+.week-card {
+    flex: 1 1 200px;
+    min-height: 150px;
+    padding: 16px 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .82);
+    text-align: center;
+}
+
+.week-card h2 {
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #777;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.week-card h2 span {
+    font-family: Arial, sans-serif;
+}
+
+.week-card a,
+.week-card p {
+    display: block;
+    margin: 8px 0;
+    color: #758d73;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.week-card a:hover {
+    color: #315c32;
+    text-decoration: underline;
+}
+
+.week-five {
+    flex-basis: 100%;
+    min-height: 120px;
+}
+
+.footer {
+    min-height: 82px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+}
+
+.footer p {
+    margin: 0;
+    color: rgba(255, 255, 255, .8);
+    font-size: 11px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .intro {
+        padding: 28px 16px 16px;
+    }
+
+    .description {
+        margin-top: 28px;
+    }
+
+    .weeks {
+        gap: 12px;
+        padding: 0 14px 18px;
+    }
+
+    .week-card {
+        flex-basis: 30%;
+        min-height: 120px;
+        padding: 12px 8px;
+    }
+
+    .week-card h2 {
+        font-size: 15px;
+    }
+
+    .week-card a,
+    .week-card p {
+        font-size: 12px;
+    }
+
+    .week-five {
+        flex-basis: 100%;
+    }
+}

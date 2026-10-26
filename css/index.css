@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: bisque;
+    margin: 0;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.topban {
+    background-color: #093C5D;
+    display: flex;
+    height: 100px;
+    padding: 0 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoimg img {
+    height: auto;
+    filter: invert(1);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon img {
+    height: 35px;
+    width: auto;
+}
