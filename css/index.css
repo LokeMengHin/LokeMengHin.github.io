@@ -2,8 +2,13 @@
 
 body {
     font-family: "Quicksand", sans-serif;
-    background-color: bisque;
+    background-image: url(/images/background.jpeg);
+    color: #093C5D;
     margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
 }
 
 h1,
@@ -34,4 +39,189 @@ p {
 .icon img {
     height: 35px;
     width: auto;
+}
+
+.pfp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin: 40px;
+
+}
+
+.pfp h1 {
+    font-size: 38px;
+
+}
+
+.pfp h2 {
+    font-size: 30px;
+    margin-top: -5px;
+    font-weight: 600;
+}
+
+.pfp p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+.pfp img {
+    width: 175px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.box {
+    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxstuff {
+    width: 25%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.boxbig {
+    margin: 40px 80px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.boxbig .lineimg {
+    width: 1300px;
+}
+
+.boxbig p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.weekicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 12px 0;
+    font-size: 24px;
+}
+
+.lineimg {
+    margin: -40px;
+}
+
+.boxstuff p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.boxstuff h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 40px;
+}
+
+.weekicon img {
+    width: 35px;
+    height: auto;
+    margin: 0;
+}
+
+.footer {
+    background-color: #093C5D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    margin-top: 30px;
+}
+
+.footer .icon {
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topban {
+        height: 75px;
+        padding: 0 15px;
+    }
+
+    .pfp {
+        margin: 25px 15px;
+        padding: 0;
+    }
+
+    .pfp h1 {
+        font-size: 30px;
+    }
+
+    .pfp h2 {
+        font-size: 24px;
+    }
+
+    .pfp p {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    .box {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .boxstuff {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .boxbig {
+        margin: 20px;
+    }
+
+    .boxbig .lineimg,
+    .lineimg {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .boxstuff h1 {
+        font-size: 28px;
+    }
+
+    .boxstuff p,
+    .boxbig p {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .footer p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
 }
