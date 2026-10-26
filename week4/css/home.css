@@ -75,6 +75,51 @@ button {
 
 }
 
+.cardcon {
+    width: 100%;
+    max-width: 545px;
+    min-height: 275px;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background: #191A23;
+    box-shadow: inset 0px -5px #191A23;
+    color: white;
+    font-weight: 100;
+}
+
+.carddis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardgrey {
+    background: #f3f3f3;
+    color: #000000;
+}
+
+.cardgreen {
+    background: #B9FF66;
+    color: #000000;
+}
+
+.servicealign {
+    gap: 40px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.smallword {
+    font-size: large;
+    margin: 0;
+    max-width: 580px;
+}
+
 
 @media screen and (max-width: 1170px) {
     .topdetailsgap {

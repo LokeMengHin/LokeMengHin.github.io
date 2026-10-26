@@ -52,7 +52,7 @@
     padding: 12px 17px;
     border-radius: 10px;
     display: flex;
-    border: 0;
+    border: none;
 }
 
 .menu {
