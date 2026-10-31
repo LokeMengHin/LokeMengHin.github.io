@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* === ROOT VARIABLES === */
+:root {
+    --primary: #ffffff;
+    --secondary: #000000;
+    --text-dark: #000000;
+    --text-light: #ffffff;
+    --bg-light: #f9f9f9;
+    --radius: 8px;
+    --font-base: "Lora  ", serif;
+}
+
+
+/* === RESET / NORMALIZE === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+
+}
+
+/*===GLOBAL TYPOGRAPHY===*/
+body {
+    font-family: var(--font-base);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 1em;
+    color: var(--text-light);
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+/* === Reusable Components  === */
+.btn {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.card {
+    background: #000000;
+    border-radius: var(--radius);
+    box-shadow: 0 0 10px #ddd;
+    padding: 20px;
+}
+
+/* === Sitewide Elements  === */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 145px;
+    background-color: var(--secondary);
+    color: var(--text-light);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 65px;
+    margin-right: 25px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navright img {
+    max-width: 30px;
+    filter: invert(1);
+}
+
+.main {
+    display: flex;
+    margin-top: -115px;
+}
+
+.maincontent {
+    width: 45%;
+    padding: 60px 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main>img {
+    width: 55%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+    background: var(--bg-light);
+}

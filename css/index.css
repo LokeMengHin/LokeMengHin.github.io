@@ -123,6 +123,7 @@ p {
 .boxstuff p {
     font-size: 20px;
     font-weight: 500;
+    color: #3B7597;
 }
 
 .boxstuff h1 {
@@ -161,7 +162,7 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .topban {
         height: 75px;
         padding: 0 15px;
@@ -170,6 +171,10 @@ a {
     .pfp {
         margin: 25px 15px;
         padding: 0;
+    }
+
+    .pfp img {
+        margin-top: 80px;
     }
 
     .pfp h1 {
@@ -183,7 +188,7 @@ a {
     .pfp p {
         margin-left: 0;
         margin-right: 0;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .box {
@@ -208,13 +213,15 @@ a {
     }
 
     .boxstuff h1 {
-        font-size: 28px;
+        font-size: auto;
     }
 
     .boxstuff p,
     .boxbig p {
-        font-size: 18px;
+        font-size: 25px;
     }
+
+
 
     .footer {
         padding: 30px 15px;
