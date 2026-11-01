@@ -1,0 +1,52 @@
+.popularsec {
+    padding: 100px 8%;
+    text-align: center;
+}
+
+.popularsec h2 {
+    font-size: 46px;
+    font-style: italic;
+}
+
+.quote hr {
+    width: 80px;
+    margin: 12px auto;
+    border: 0;
+    border-top: 1px solid #A1A1A1;
+    margin-bottom: 50px;
+}
+
+.quote h1 {
+    margin-bottom: 25px;
+    font-size: 70px;
+}
+
+.populardesc {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 33.3px;
+    text-align: left;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.showcase h1 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.featured h1 {
+    font-size: 56px;
+}
+
+.showcase img {
+    width: 100%;
+    height: auto;
+}
