@@ -218,3 +218,56 @@ a:hover {
     gap: 15px;
     margin-top: 45px;
 }
+
+.menu {
+    filter: invert(1);
+    display: none;
+}
+
+/* 1170px??? if no compress*/
+@media screen and (max-width: 1024px) {
+    .menu {
+        display: block;
+    }
+
+    .menu img {
+        width: 30px;
+        max-width: none;
+    }
+
+    .navright h4 {
+        display: none;
+    }
+
+    .navright p {
+        display: none;
+    }
+
+    .header {
+        padding: 40px 8%;
+    }
+
+    .orderb {
+        display: none;
+    }
+
+    .intro {
+        background-image: url("../images/home/bar3.png");
+        background-size: contain;
+        background-position: center 140px;
+    }
+
+    .maincontent {
+        padding-top: 860px;
+        padding-left: 100px;
+        max-width: 650px;
+    }
+
+    .maincontent p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {}

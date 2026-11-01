@@ -73,3 +73,57 @@
     padding: 150px;
     max-width: 850px;
 }
+
+.tabshowcaseimg {
+    display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .populardesc {
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .showcase {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .showcaseimg {
+        width: 100%;
+        max-width: none;
+    }
+
+    .popularsec {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .showcase h1 {
+        font-size: 56px;
+    }
+
+    .featured {
+        order: -1;
+    }
+
+    .deskshowcaseimg {
+        display: none;
+    }
+
+    .tabshowcaseimg {
+        display: block;
+    }
+
+    .atmosalign {
+        margin-left: -50px;
+    }
+
+    .btn1 {
+        padding: 15px 40px;
+    }
+
+
+
+}
