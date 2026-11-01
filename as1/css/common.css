@@ -104,7 +104,7 @@ a:hover {
 .intro {
     min-height: 110vh;
     background-color: var(--secondary);
-    background-image: url("../images/home/slider52x 1.jpg");
+    background-image: url("../images/home/bar1.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 58.5% 100%;
@@ -191,7 +191,30 @@ a:hover {
 .footer {
     text-align: center;
     padding: 20px 0;
-    font-size: 0.9rem;
-    color: #ffffff;
-    background: var(--bg-light);
+    color: var(--text-light);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../images/home/bar2.png");
+    min-height: 580px;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footerpara {
+    max-width: 700px;
+    line-height: 33.3px;
+    font-size: 19px;
+}
+
+.socialicons {
+    display: flex;
+    gap: 15px;
+    margin-top: 45px;
 }

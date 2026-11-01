@@ -6,6 +6,7 @@
 .popularsec h2 {
     font-size: 46px;
     font-style: italic;
+    line-height: 55.2px;
 }
 
 .quote hr {
@@ -38,7 +39,7 @@
 }
 
 .showcase h1 {
-    margin: 30px;
+    margin: 20px;
     font-size: 30px;
 }
 
@@ -49,4 +50,26 @@
 .showcase img {
     width: 100%;
     height: auto;
+}
+
+.atmosphere {
+    background-image: url("../images/home/atmosphere.jpg");
+    min-height: 109.5vh;
+    background-repeat: no-repeat;
+    color: var(--text-light);
+}
+
+.atmosphere h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.atmosphere p {
+    font-size: 20px;
+    line-height: 33.3px;
+}
+
+.atmosalign {
+    padding: 150px;
+    max-width: 850px;
 }
