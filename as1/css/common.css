@@ -253,14 +253,13 @@ a:hover {
 
     .intro {
         background-image: url("../images/home/bar3.png");
-        background-size: contain;
+        background-size: 100% auto;
         background-position: center 140px;
     }
 
     .maincontent {
-        padding-top: 860px;
-        padding-left: 100px;
-        max-width: 650px;
+        padding: 90vw 8% 60px;
+        max-width: none;
     }
 
     .maincontent p {
@@ -270,4 +269,25 @@ a:hover {
 
 }
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
+    .maincontent {
+        padding: 90vw 8% 60px;
+        width: 100%;
+        max-width: none;
+    }
+
+    .maincontent h1 {
+        font-size: 84px;
+        line-height: 101.9px;
+    }
+
+    .maincontent p {
+        margin-bottom: 10px;
+    }
+
+    .footerpara {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+}

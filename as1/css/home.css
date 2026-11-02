@@ -78,6 +78,10 @@
     display: none;
 }
 
+.specialquote {
+    display: none;
+}
+
 
 @media screen and (max-width: 1024px) {
     .populardesc {
@@ -123,7 +127,61 @@
     .btn1 {
         padding: 15px 40px;
     }
+}
 
+@media screen and (max-width: 640px) {
 
+    .specialquote {
+        display: block;
+    }
+
+    .specialquotedot {
+        display: none;
+    }
+
+    .quote h1 {
+        font-size: 63px;
+    }
+
+    .populardesc {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .deskshowcaseimg {
+        display: block;
+        aspect-ratio: 1.08;
+
+    }
+
+    .tabshowcaseimg {
+        display: none;
+    }
+
+    .atmosphere {
+        min-height: 0;
+        padding-top: 36vw;
+        background-size: 100% auto;
+        background-position: top center;
+        background-color: var(--secondary);
+    }
+
+    .atmosalign {
+        min-width: none;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        padding: 7%;
+        margin-top: 110px;
+    }
+
+    .atmosalign h1 {
+        font-size: 63px;
+    }
+
+    .atmosalign p {
+        font-size: 19px;
+        line-height: 33.3px;
+    }
 
 }
