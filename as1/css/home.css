@@ -3,23 +3,12 @@
     text-align: center;
 }
 
-.popularsec h2 {
-    font-size: 46px;
-    font-style: italic;
-    line-height: 55.2px;
-}
-
 .quote hr {
     width: 80px;
     margin: 12px auto;
     border: 0;
     border-top: 1px solid #A1A1A1;
     margin-bottom: 50px;
-}
-
-.quote h1 {
-    margin-bottom: 25px;
-    font-size: 70px;
 }
 
 .populardesc {
