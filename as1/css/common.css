@@ -284,13 +284,10 @@ a:hover {
         max-width: none;
     }
 
-    .navright h4 {
+    .navright>.btn {
         display: none;
     }
 
-    .navright p {
-        display: none;
-    }
 
     .header {
         padding: 40px 8%;

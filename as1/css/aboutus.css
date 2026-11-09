@@ -120,3 +120,112 @@
     max-width: 100%;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        background-image: url("../images/about-us/main1.png");
+        background-size: 100% auto;
+        background-position: center 140px;
+        min-height: 100vh;
+    }
+
+    .maincontent {
+        width: 100%;
+        max-width: none;
+        padding: 85vw 8% 60px;
+    }
+
+    .culimg {
+        gap: 0;
+        justify-content: flex-start;
+    }
+
+    .culimg img:first-child {
+        width: 54%;
+    }
+
+    .culimg img:last-child {
+        width: 46%;
+    }
+
+    .cul p {
+        max-width: 90%;
+    }
+
+    .commit {
+        padding: 60px 8%;
+        background-image: url("../images/about-us/ourcom.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .committext {
+        width: 100%;
+        max-width: 800px;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .commit img {
+        display: none;
+    }
+
+    .achievements {
+        min-height: auto;
+        padding: 70px 8%;
+    }
+
+    .achievementdes {
+        max-width: 100%;
+    }
+
+    .achievementlist {
+        flex-direction: column;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .achievement {
+        width: 100%;
+    }
+
+    .achievement img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .achievement h3 {
+        padding-top: 30px;
+    }
+
+    .achievementline {
+        margin-bottom: 35px;
+    }
+}
+
+/*Phone*/
+@media screen and (max-width: 640px) {
+    .cul h1 {
+        max-width: 420px;
+        margin: 35px auto 20px;
+    }
+
+    .culimg {
+        display: block;
+    }
+
+    .culimg img:first-child {
+        width: 100%;
+    }
+
+    .culimg img:last-child {
+        display: none;
+    }
+
+    .cul p {
+        max-width: none;
+        padding: 24px 5%;
+    }
+}
