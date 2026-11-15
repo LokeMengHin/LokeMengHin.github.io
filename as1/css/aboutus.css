@@ -2,6 +2,7 @@
     background-image: url("../images/about-us/main.png");
     background-size: 53% 100%;
     background-position: left top;
+
 }
 
 .maincontent {
@@ -36,10 +37,19 @@
     justify-content: space-between;
 }
 
-.culimg img {
-    width: 100%;
-    height: auto;
-    /*make it background img*/
+.culimgsize {
+    flex: 1;
+    height: 38vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.culphotohand {
+    background-image: url("../images/about-us/cul1.png");
+}
+
+.culphotoplace {
+    background-image: url("../images/about-us/cul2.png");
 }
 
 .cul p {
@@ -56,7 +66,9 @@
     color: var(--text-light);
 }
 
+
 .committext {
+    width: 33%;
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -116,8 +128,8 @@
 }
 
 .achievement img {
-    height: 100%;
-    width: auto;
+    width: 70%;
+    height: auto;
     max-width: 100%;
     margin-bottom: 40px;
 }
@@ -206,20 +218,12 @@
         margin: 35px auto 20px;
     }
 
-    .culimg {
-        display: block;
-    }
-
-    .culimg img:first-child {
-        width: 100%;
-    }
-
-    .culimg img:last-child {
-        display: none;
-    }
-
     .cul p {
         max-width: none;
         padding: 24px 5%;
+    }
+
+    .culphotoplace {
+        display: none;
     }
 }
