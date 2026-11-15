@@ -9,6 +9,8 @@
     --bg-light: #f9f9f9;
     --radius: 8px;
     --font-base: "Lora", serif;
+    --gold: #BDA16B;
+    --grey: #A1A1A1;
 }
 
 
@@ -145,12 +147,52 @@ a:hover {
     opacity: 1;
 }
 
-.btn1 {
-    background: none;
-    color: var(--text-dark);
+.btn1,
+.btn2,
+.btn3 {
     padding: 10px 35px;
     border: 1px solid;
     font-size: 15px;
+}
+
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+    min-height: 38px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.btn1 {
+    background: none;
+    color: var(--text-dark);
+}
+
+.btn2 {
+    border: 1px solid var(--gold);
+    background: var(--gold);
+}
+
+.btn3 {
+    border: 1px solid var(--grey);
+    background: transparent;
+}
+
+.btn4 {
+    min-height: 38px;
+    border: 1px solid #777;
+    color: var(--text-light);
+}
+
+.btn5 {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--text-dark);
 }
 
 .btn:hover {
