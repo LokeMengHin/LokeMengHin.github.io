@@ -243,6 +243,7 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     background-position: center;
+    background-size: cover;
 }
 
 .tabshowcaseimg {

@@ -53,6 +53,8 @@ h3 {
     min-height: 109.5vh;
     background-repeat: no-repeat;
     color: var(--text-light);
+    display: flex;
+    background-size: cover;
 }
 
 .atmosphere h1 {
@@ -148,9 +150,10 @@ h3 {
     .atmosphere {
         min-height: 0;
         padding-top: 36vw;
-        background-size: 100% auto;
+        background-size: cover;
         background-position: top center;
         background-color: var(--secondary);
+        width: 100%;
     }
 
     .atmosalign {

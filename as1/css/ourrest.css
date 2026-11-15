@@ -21,6 +21,17 @@
     margin-left: 145px;
 }
 
+.sideimg {
+    width: 24%;
+    height: auto;
+}
+
+.mainimg {
+    width: 34%;
+    height: auto;
+}
+
+
 .Ealigncen {
     text-align: center;
     align-items: center;
@@ -74,6 +85,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 60px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -84,7 +96,7 @@
     }
 
     .maincontent {
-        width: 65%;
+        width: 75%;
         max-width: none;
         padding: 60px 8%;
     }
@@ -139,7 +151,7 @@
 /*Phone*/
 @media screen and (max-width: 640px) {
     .maincontent {
-        width: 80%;
+        width: 90%;
         max-width: none;
     }
 
@@ -156,5 +168,6 @@
     .ealignimg img {
         width: 100%;
         height: auto;
+        flex-wrap: wrap;
     }
 }
