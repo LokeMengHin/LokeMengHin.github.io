@@ -39,6 +39,7 @@
 .culimg img {
     width: 100%;
     height: auto;
+    /*make it background img*/
 }
 
 .cul p {
@@ -137,15 +138,8 @@
 
     .culimg {
         gap: 0;
-        justify-content: flex-start;
-    }
-
-    .culimg img:first-child {
-        width: 54%;
-    }
-
-    .culimg img:last-child {
-        width: 46%;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .cul p {

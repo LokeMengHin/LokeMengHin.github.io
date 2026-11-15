@@ -18,8 +18,6 @@
 .populardesc {
     max-width: 650px;
     margin: 0 auto;
-    font-size: 19px;
-    line-height: 33.3px;
     text-align: left;
 }
 
@@ -27,17 +25,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
     margin-top: 100px;
+    gap: 30px;
 }
 
-.showcase h1 {
+.showcase h4,
+h3 {
     margin: 20px;
-    font-size: 30px;
 }
 
-.featured h1 {
-    font-size: 56px;
+.showcaseimg {
+    flex: 1;
+    min-width: 0;
+}
+
+.featured {
+    flex: 1.5;
 }
 
 .showcase img {
@@ -53,14 +56,9 @@
 }
 
 .atmosphere h1 {
-    font-size: 70px;
     margin-bottom: 30px;
 }
 
-.atmosphere p {
-    font-size: 20px;
-    line-height: 33.3px;
-}
 
 .atmosalign {
     padding: 150px;
@@ -88,14 +86,17 @@
         max-width: none;
     }
 
+    .featured h3 {
+        font-size: 30px;
+        line-height: 36px;
+        margin: 20px;
+    }
+
     .popularsec {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .showcase h1 {
-        font-size: 56px;
-    }
 
     .featured {
         order: -1;
@@ -128,9 +129,6 @@
         display: none;
     }
 
-    .quote h1 {
-        font-size: 63px;
-    }
 
     .populardesc {
         margin-left: 60px;
@@ -164,13 +162,5 @@
         margin-top: 110px;
     }
 
-    .atmosalign h1 {
-        font-size: 63px;
-    }
-
-    .atmosalign p {
-        font-size: 19px;
-        line-height: 33.3px;
-    }
 
 }

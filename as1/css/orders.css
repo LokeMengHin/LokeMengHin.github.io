@@ -6,19 +6,16 @@
 }
 
 .main {
-    min-height: calc(100vh - 109px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+    position: relative;
+    height: 100vh;
+    margin-top: 0;
 }
 
 .maincontent {
-    width: 100%;
+    position: relative;
+    top: 40%;
     max-width: none;
-    padding: 0 8%;
     align-items: center;
-    text-align: center;
 }
 
 .maincontent .eyebrown-head {
@@ -62,9 +59,13 @@
 
 
 .signature-dishes {
-    padding: 55px 8%;
-    background: #000;
-    color: #fff;
+    padding: 55px 10%;
+    background: var(--secondary);
+    color: var(--text-light);
+}
+
+.signature-dishes h4 {
+    margin-bottom: 30px;
 }
 
 .signature-dishes>.eyebrown-head {
@@ -159,8 +160,8 @@
 
 .featured-dish {
     display: flex;
-    width: 82%;
-    margin: 70px auto;
+    width: auto;
+    margin: 70px 10%;
     background: #000;
     color: #fff;
 }

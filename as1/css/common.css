@@ -89,7 +89,7 @@ h5 {
 .section-title,
 .menu-title,
 .paragraph {
-    font-family: "Lora", sans-serif;
+    font-family: var(--font-base);
 }
 
 .section-title,
@@ -212,10 +212,6 @@ a:hover {
     filter: invert(1);
 }
 
-.navright h4 {
-    color: #A1A1A1
-}
-
 .main {
     color: var(--text-light);
 }
@@ -235,6 +231,7 @@ a:hover {
 }
 
 .footer {
+    width: 100%;
     text-align: center;
     padding: 20px 0;
     color: var(--text-light);
@@ -245,6 +242,7 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-position: center;
 }
 
 .tabshowcaseimg {
@@ -265,6 +263,11 @@ a:hover {
     display: flex;
     gap: 15px;
     margin-top: 45px;
+}
+
+.socialicons img {
+    width: 60px;
+    height: 60px;
 }
 
 .menu {
@@ -304,13 +307,16 @@ a:hover {
     }
 
     .maincontent {
-        padding: 90vw 8% 60px;
+        padding: 110vw 8% 60px;
         max-width: none;
     }
 
-    .maincontent p {
+    .maincontent p,
+    h1 {
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
 }
@@ -349,7 +355,7 @@ a:hover {
 
 
     .maincontent {
-        padding: 90vw 8% 60px;
+        padding: 110vw 8% 60px;
         width: 100%;
         max-width: none;
     }
