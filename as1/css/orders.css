@@ -1,8 +1,9 @@
 .intro {
-    min-height: 100vh;
+    min-height: 0;
+    height: 59vw;
     background-image: url("../images/orders/main.png");
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: center top;
 }
 
 .main {
@@ -261,7 +262,7 @@
     }
 
     .eyebrow-row {
-        margin-top: -170%;
+        margin-top: -220%;
     }
 
     .maincontent .eyebrow-row p {
@@ -328,5 +329,49 @@
     .dish-list .dish-card {
         min-width: 350px;
         max-width: 48%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .eyebrow-row {
+        margin-top: -200%;
+    }
+
+    .header {
+        background-color: var(--secondary);
+    }
+
+    .choosefav .btn1 {
+        min-width: 220px;
+    }
+
+    .intro {
+        height: auto;
+        min-height: 0;
+        background-image: none;
+    }
+
+    .main {
+        height: 60vw;
+        background-image: url("../images/orders/main.png");
+        background-size: 100% auto;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+
+    .choosefav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .dish-list {
+        flex-direction: column;
+    }
+
+    .dish-list .dish-card {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
     }
 }
