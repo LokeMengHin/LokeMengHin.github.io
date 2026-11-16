@@ -178,3 +178,116 @@
     width: 50%;
     margin-top: 30px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .recommendations {
+        flex-wrap: wrap;
+        gap: 60px;
+        padding: 60px 8%;
+    }
+
+    .recomcard {
+        min-width: 100%;
+        height: 70vw;
+    }
+
+    .mainc {
+        flex-direction: column;
+    }
+
+    .maincimg {
+        width: 100%;
+        height: 100vw;
+    }
+
+    .maincmenu {
+        margin: 50px 8%;
+    }
+
+    .maincmenu h1 {
+        padding: 0;
+    }
+
+    .dessert-menu {
+        flex-direction: column;
+        gap: 80px;
+        padding: 30px 8%;
+    }
+
+    .dessert-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dessert-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .dessertlow {
+        margin: 0;
+    }
+
+    .cocktail-info h1 {
+        padding: 0;
+    }
+
+    .cocktail-info {
+        max-width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .recommendations {
+        padding: 0;
+        gap: 40px;
+        padding-top: 60px;
+    }
+
+    .recomcard {
+        height: 95vw;
+    }
+
+    .recomcard h4 {
+        text-align: center;
+    }
+
+    .maincimg {
+        display: none;
+    }
+
+    .maincmenu h1 {
+        text-align: center;
+    }
+
+    .maincmenu {
+        margin-bottom: 80px;
+    }
+
+    .course-item {
+        padding: 35px 0;
+    }
+
+    .dessert-reverse {
+        flex-direction: column;
+    }
+
+    .dessertlow {
+        flex-direction: column-reverse;
+    }
+
+    .dessert-menu {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .cocktail-info {
+        max-width: 80%;
+    }
+
+    .cocktail-button {
+        width: 60%;
+    }
+}
