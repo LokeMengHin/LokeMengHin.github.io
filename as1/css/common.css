@@ -4,13 +4,14 @@
 :root {
     --primary: #ffffff;
     --secondary: #000000;
-    --text-dark: #000000;
     --text-light: #ffffff;
     --bg-light: #f9f9f9;
     --radius: 8px;
     --font-base: "Lora", serif;
     --gold: #BDA16B;
     --grey: #A1A1A1;
+    --darkgrey: #777;
+    --bgtransparent: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -36,7 +37,7 @@ a {
 /*===GLOBAL TYPOGRAPHY===*/
 body {
     font-family: var(--font-base);
-    color: var(--text-dark);
+    color: var(--secondary);
     line-height: 1.6;
     background: var(--primary);
 }
@@ -143,7 +144,7 @@ a:hover {
 }
 
 .btntop:hover {
-    color: var(--text-light);
+    color: var(--primary);
     opacity: 1;
 }
 
@@ -170,7 +171,7 @@ a:hover {
 
 .btn1 {
     background: none;
-    color: var(--text-dark);
+    color: var(--secondary);
 }
 
 .btn2 {
@@ -185,14 +186,14 @@ a:hover {
 
 .btn4 {
     min-height: 38px;
-    border: 1px solid #777;
+    border: 1px solid var(--darkgrey);
     color: var(--text-light);
 }
 
 .btn5 {
     background: var(--primary);
     border-color: var(--primary);
-    color: var(--text-dark);
+    color: var(--secondary);
 }
 
 .btn:hover {
@@ -210,7 +211,7 @@ a:hover {
     align-items: center;
     padding: 25px 145px;
     background-color: transparent;
-    color: var(--text-light);
+    color: var(--primary);
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
 }
@@ -277,7 +278,7 @@ a:hover {
     text-align: center;
     padding: 20px 0;
     color: var(--text-light);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../images/home/bar2.png");
+    background-image: linear-gradient(var(--bgtransparent)), url("../images/home/bar2.png");
     min-height: 580px;
     background-repeat: no-repeat;
     align-items: center;
@@ -316,6 +317,41 @@ a:hover {
 .menu {
     filter: invert(1);
     display: none;
+}
+
+/*submenu*/
+.submenu {
+    opacity: 0;
+    /* make submenu not visible */
+    position: absolute;
+    pointer-events: none;
+    /* make the submenu not hoverable or clickable */
+    transition: all 1s;
+    background-color: var(--secondary);
+    padding: 10px;
+
+}
+
+/*menu*/
+.menu-toggle {
+    display: none;
+}
+
+.submenu a {
+    display: block;
+    /* make second link to next line */
+    padding: 5px;
+}
+
+.has-submenu:hover>.submenu {
+    opacity: 1;
+    /* visible when hover menu item */
+    pointer-events: auto;
+    /* make the submenu hoverable/clickable again */
+}
+
+.has-submenu>a::after {
+    margin-left: 2px;
 }
 
 /*Tablet*/
@@ -361,6 +397,39 @@ a:hover {
         padding-left: 6%;
         padding-right: 6%;
     }
+
+
+    /*menu*/
+    .menu-toggle {
+        display: block;
+        position: relative;
+        z-index: 11;
+        color: var(--text-light);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navright {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        background: var(--secondary);
+        transition: right 0.3s ease;
+        z-index: 10;
+    }
+
+    .navright.active {
+        right: 0;
+    }
+
+    .navright>.btn {
+        display: block;
+    }
+
 
 }
 

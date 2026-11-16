@@ -14,6 +14,7 @@
 .maincontent {
     max-width: none;
     align-items: center;
+    text-align: center;
 }
 
 .maincontent .eyebrown-head {
@@ -288,11 +289,6 @@
         margin-top: 10px;
     }
 
-    .dish-list .dish-card {
-        display: flex;
-        flex-direction: column;
-    }
-
     .dish-list .dish-details {
         flex: 1;
         display: flex;
@@ -327,8 +323,11 @@
     }
 
     .dish-list .dish-card {
-        min-width: 350px;
-        max-width: 48%;
+        max-width: calc(50% - 20px);
+    }
+
+    .dish-card {
+        flex: none;
     }
 }
 

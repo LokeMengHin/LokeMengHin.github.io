@@ -17,34 +17,42 @@
                     <img src="images/home/logo.png">
                     <p class="logofont">ROMALIYA</p>
                 </div>
-                <div class="navright">
+                <div class="navright" id="mobile-menu">
                     <div class="btn">
-                        <a class="button" href="index.html">Home</a>
+                        <a class="button menu-item" href="index.html">Home</a>
                     </div>
                     <div class="btn">
-                        <a class="button" href="menu.html">Menu</a>
+                        <a class="button menu-item" href="menu.html">Menu</a>
                     </div>
                     <div class="btn">
-                        <a class="button" href="orders.html">Order</a>
+                        <a class="button menu-item" href="orders.html">Order</a>
+                    </div>
+                    <div class="has-submenu">
+                        <div class="btn">
+                            <a class="button " href="promo.html">Promotion</a>
+                        </div>
+                        <div class="submenu">
+                            <a class="button" href="promo.html">Birthday Treats</a>
+                            <a class="button" href="promo.html">10 Aniversary</a>
+                        </div>
                     </div>
                     <div class="btn">
-                        <a class="button" href="promo.html">Promotion</a>
+                        <a class="button menu-item" href="aboutus.html">About Us</a>
                     </div>
                     <div class="btn">
-                        <a class="button" href="aboutus.html">About Us</a>
-                    </div>
-                    <div class="btn">
-                        <a class="button currentpage" href="ourrest.html">Our Restaurant</a>
+                        <a class="button currentpage menu-item" href="ourrest.html">Our Restaurant</a>
                     </div>
                     <div class="orderb">
                         <img src="images/home/order-food.png">
                     </div>
-                    <div class="menu">
-                        <img src="images/home/menu-icon.png">
-                    </div>
                 </div>
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
             </div>
         </div>
+
+
+
+
         <div class="main">
             <div class="maincontent">
                 <p class="eyebrown-head">FIND DINING EXPERIENCE</p>
@@ -137,6 +145,9 @@
             </a>
         </div>
     </div>
+
+
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
