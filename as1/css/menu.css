@@ -1,0 +1,180 @@
+.header {
+    background-color: var(--secondary);
+    border-bottom: 1px solid var(--grey);
+}
+
+.intro {
+    background-image: url("../images/menu/recom.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 50%;
+}
+
+.main {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.maincontent {
+    max-width: none;
+    padding: 0 8%;
+    align-items: center;
+    text-align: center;
+}
+
+.recommendations {
+    display: flex;
+    gap: 40px;
+    padding: 80px 3.2%;
+    background: var(--primary);
+}
+
+.recomcard {
+    flex: 1;
+    min-width: 0;
+    height: 68vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.lobster {
+    background-image: url("../images/menu/reimg1.png");
+}
+
+.chocolate {
+    background-image: url("../images/menu/reimg2.png");
+}
+
+.duck {
+    background-image: url("../images/menu/reimg3.png");
+}
+
+.recomcard h4 {
+    width: 100%;
+    padding: 12px;
+    color: var(--primary);
+    text-align: right;
+}
+
+.mainc {
+    display: flex;
+}
+
+.maincimg {
+    width: 50%;
+    background-image: url("../images/menu/mainc.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.maincmenu {
+    flex: 1;
+    margin: 90px;
+}
+
+.maincmenu h1 {
+    margin-bottom: 20px;
+}
+
+.course-item {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--grey);
+}
+
+.course-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.course-item>p {
+    margin-top: 5px;
+}
+
+.eyebrown-head {
+    margin: 0;
+}
+
+.dessert-banner {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/menu/dessert.png");
+    background-size: cover;
+    background-position: center;
+    color: var(--primary);
+}
+
+.dessert-banner h1 {
+    margin: 0;
+}
+
+.dessert-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 8%;
+    padding-bottom: 7%;
+}
+
+.dessert-item {
+    flex: 1;
+    min-width: 0;
+}
+
+.dessertlow {
+    margin-top: 15%;
+}
+
+.dessertup {
+    margin-bottom: 15%;
+}
+
+.dessert-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dessert-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.cocktail-promo {
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    background-image: url("../images/menu/best.png");
+    background-size: cover;
+    background-position: center;
+    color: var(--primary);
+}
+
+.cocktail-info {
+    max-width: 40%;
+}
+
+.cocktail-info h1 {
+    margin-bottom: 0;
+}
+
+.cocktail-line {
+    width: 50px;
+    margin: 45px 0 20px;
+    border-top: 1px solid var(--grey);
+}
+
+.cocktail-button {
+    width: 50%;
+    margin-top: 30px;
+}

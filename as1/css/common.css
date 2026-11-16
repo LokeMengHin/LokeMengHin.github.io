@@ -159,7 +159,8 @@ a:hover {
 .btn2,
 .btn3,
 .btn4,
-.btn5 {
+.btn5,
+.btn6 {
     min-height: 38px;
     padding: 0 15px;
     display: flex;
@@ -187,13 +188,17 @@ a:hover {
 .btn4 {
     min-height: 38px;
     border: 1px solid var(--darkgrey);
-    color: var(--text-light);
 }
 
 .btn5 {
     background: var(--primary);
     border-color: var(--primary);
     color: var(--secondary);
+}
+
+.btn6 {
+    border: 1px solid var(--darkgrey);
+    padding: 10px;
 }
 
 .btn:hover {
