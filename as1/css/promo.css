@@ -1,0 +1,294 @@
+.intro {
+    min-height: 0;
+    background-image: url("../images/promo/main.png");
+    background-size: 50% 100%;
+    background-position: left top;
+    background-color: var(--secondary);
+}
+
+.header {
+    background-color: var(--secondary);
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../images/promo/main.png");
+    background-size: 50% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.maincontent {
+    width: 50%;
+    max-width: none;
+    padding: 50px 7%;
+    align-items: flex-start;
+}
+
+.maincontent p {
+    padding-bottom: 20px;
+}
+
+.maincontent .btn6 {
+    width: 40%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.seasonal {
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.seasonal-line {
+    width: 5%;
+    margin: 10px auto 25px;
+    border-top: 1px solid var(--grey);
+}
+
+.seasonal h2 {
+    margin-bottom: 2%;
+}
+
+.seasonal-description {
+    margin-bottom: 3%;
+}
+
+.seasonal-cards {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.seasonal-card {
+    flex: 1;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.seasonal-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.seasonal-card h4 {
+    margin: 20px 0 10px;
+}
+
+.seasonal-card p {
+    margin-bottom: 15px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seasonal .btn6 {
+    color: var(--secondary);
+    max-width: 40%;
+}
+
+.seasonal-card .btn6 {
+    width: 80%;
+    max-width: none;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.even-banner {
+    background-image: url("../images/promo/evenrmb.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--primary);
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 8%;
+}
+
+.even-banner .eyebrown-head {
+    margin-bottom: 10px;
+}
+
+.even-banner h2 {
+    margin-bottom: 15px;
+}
+
+.even-offers {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.offer img {
+    height: auto;
+}
+
+.offer h4 {
+    flex: 1;
+    text-align: center;
+}
+
+.offer-dessert,
+.offer-menu,
+.offer-wine {
+    position: relative;
+}
+
+.offer-dessert img {
+    width: 65%;
+}
+
+.offer-dessert {
+    z-index: 3;
+}
+
+.offer-menu {
+    flex-direction: row-reverse;
+    margin-top: -8%;
+    z-index: 1;
+}
+
+.offer-menu img {
+    width: 50%;
+}
+
+.offer-menu h4 {
+    text-align: right;
+}
+
+.offer-wine {
+    margin-left: 20%;
+    margin-top: -8%;
+    z-index: 2;
+}
+
+.offer-wine img {
+    width: 42%;
+}
+
+.offer-footer {
+    text-align: center;
+    padding: 0 8% 60px;
+}
+
+.reserve-button {
+    display: inline-flex;
+    margin-top: 8px;
+    padding: 0px 20px;
+    color: var(--secondary);
+}
+
+.offer-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8% 80px;
+}
+
+.offer-note {
+    position: relative;
+    margin-bottom: 40px;
+    padding: 0 65px;
+    text-align: center;
+}
+
+.offer-note .eyebrown-head {
+    margin: 0;
+}
+
+.note-line {
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.note-line-left {
+    left: 0;
+}
+
+.note-line-right {
+    right: 0;
+}
+
+.tiers {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 80px 10%;
+}
+
+.tier {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3% 5% 3%;
+    color: var(--primary);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    ;
+}
+
+.tier-classic {
+    background-image: url("../images/promo/classic.jpg");
+}
+
+.tier-prestige {
+    background-image: url("../images/promo/member.jpg");
+}
+
+.tier-elite {
+    background-image: url("../images/promo/elite.jpg");
+}
+
+.tier .eyebrown-head {
+    margin: 0 0 30px;
+}
+
+.tier h4 {
+    margin-bottom: 30px;
+}
+
+.tier-perks {
+    width: 100%;
+    text-align: left;
+}
+
+.perk {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.perk img {
+    width: 14px;
+    height: auto;
+    margin-top: 6px;
+}
+
+.tier-apply {
+    width: 100%;
+    margin-top: auto;
+}
