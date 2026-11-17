@@ -229,6 +229,28 @@
     right: 0;
 }
 
+.mem-banner {
+    background-image: url("../images/promo/member.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--primary);
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 8%;
+}
+
+.mem-banner .eyebrown-head {
+    margin-bottom: 10px;
+}
+
+.mem-banner h2 {
+    margin-bottom: 15px;
+}
+
+
 .tiers {
     display: flex;
     justify-content: center;
@@ -255,7 +277,7 @@
 }
 
 .tier-prestige {
-    background-image: url("../images/promo/member.jpg");
+    background-image: url("../images/promo/prestige.jpg");
 }
 
 .tier-elite {
@@ -291,4 +313,170 @@
 .tier-apply {
     width: 100%;
     margin-top: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        background-image: none;
+        background-color: var(--secondary);
+    }
+
+    .main {
+        display: block;
+        min-height: 0;
+        padding-top: 105vw;
+        background-size: 100% auto;
+        background-position: top center;
+    }
+
+    .maincontent {
+        width: 60%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    .maincontent .btn6 {
+        width: 150px;
+    }
+
+    .maincontent {
+        align-items: flex-start;
+        text-align: left;
+
+    }
+
+    .maincontent p {
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .maincontent .btn6 {
+        align-self: flex-start;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .maincontent h1 {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .seasonal-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .seasonal-card {
+        width: 75%;
+        margin: 30px auto 0;
+    }
+
+
+    .seasonal-card .btn6 {
+        width: 80%;
+        max-width: 200px;
+        margin: 15px auto 0;
+    }
+
+    .even-banner br {
+        display: none;
+    }
+
+    .even-banner p {
+        max-width: 575px;
+        text-align: center;
+    }
+
+
+    .even-offers {
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .offer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .offer img {
+        width: 100%;
+        max-width: 75%;
+        margin-top: 20px;
+    }
+
+    .offer h4 {
+        width: 100%;
+        margin: 40px 0 0;
+        text-align: center;
+    }
+
+    .offer-menu,
+    .offer-wine {
+        margin: 0;
+    }
+
+    .tiers {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .tier {
+        flex: 1;
+        min-width: 45%;
+        max-width: 47.5%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .seasonal-card {
+        width: 100%;
+        margin: 30px auto 0;
+    }
+
+    .seasonal-card p {
+        max-width: none;
+    }
+
+    .offer img {
+        max-width: none;
+    }
+
+    .offer-wine h4 {
+        margin-bottom: 30px;
+    }
+
+    .tiers {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 40px 14%;
+    }
+
+    .tier {
+        width: 100%;
+        min-width: 0;
+        max-width: none;
+        min-height: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tier-perks {
+        width: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tier-apply {
+        width: 40%;
+        margin-top: 30px;
+    }
 }

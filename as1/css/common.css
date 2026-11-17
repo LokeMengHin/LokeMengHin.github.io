@@ -8,6 +8,8 @@
     --bg-light: #f9f9f9;
     --radius: 8px;
     --font-base: "Lora", serif;
+    --font-second: "Bebas Neue", sans-serif;
+    --font-work: "Work Sans", sans-serif;
     --gold: #BDA16B;
     --grey: #A1A1A1;
     --darkgrey: #777;
@@ -50,7 +52,7 @@ h5,
 h6 {
     font-weight: 400;
     line-height: 1.2;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: var(--font-second);
 }
 
 h1,
@@ -86,7 +88,7 @@ h5 {
 .logofont {
     font-size: 40px;
     line-height: 150%;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: var(--font-second);
 }
 
 .section-title,
@@ -117,7 +119,7 @@ p {
 
 .eyebrown-head,
 .button {
-    font-family: "Work Sans", sans-serif;
+    font-family: var(--font-work);
     font-size: 15px;
     line-height: 18px;
 }
@@ -167,7 +169,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--text-light);
+    color: var(--primary);
 }
 
 .btn1 {
@@ -217,7 +219,7 @@ a:hover {
     padding: 25px 145px;
     background-color: transparent;
     color: var(--primary);
-    font-family: "Work Sans", sans-serif;
+    font-family: var(--font-work);
     font-weight: 300;
 }
 
@@ -261,7 +263,7 @@ a:hover {
 }
 
 .main {
-    color: var(--text-light);
+    color: var(--primary);
 }
 
 .maincontent {
