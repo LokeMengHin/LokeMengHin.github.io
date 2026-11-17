@@ -435,6 +435,9 @@ a:hover {
         display: block;
     }
 
+    .navright .button {
+        font-size: 20px;
+    }
 
 }
 
@@ -485,5 +488,10 @@ a:hover {
         padding-left: 8%;
         padding-right: 8%;
     }
+
+    .navright .button {
+        font-size: 18px;
+    }
+
 
 }
